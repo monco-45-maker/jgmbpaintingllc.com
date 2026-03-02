@@ -1,11 +1,11 @@
-import logo from "./Logo.png";
+import logo.png from "./Logo.png";
 export default function App() {
   return (
     <div style={{fontFamily: 'Arial, sans-serif', margin: 0, padding: 0}}>
 
       {/* HERO SECTION */}
       <section style={{backgroundColor: '#1f5f4a', color: 'white', padding: '80px 20px', textAlign: 'center'}}>
-        <img  src={logo} ={{width: '180px', marginBottom: '20px'}} />
+        <img  src={logo.png} ={{width: '180px', marginBottom: '20px'}} />
         <h1 style={{fontSize: '48px', marginBottom: '10px'}}>JGMB Painting & Remodeling</h1>
         <p style={{fontSize: '22px', marginBottom: '20px'}}>Interior & Exterior Painting | Epoxy Floors | Pressure Washing</p>
         <a href="tel:4075800112" style={{backgroundColor: '#f28c38', color: 'white', padding: '15px 30px', textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold'}}>Call Now</a>
