@@ -14,10 +14,9 @@ export default function App() {
       <section style={{padding: '60px 20px', textAlign: 'center'}}>
         <h2 style={{color: '#1f5f4a', fontSize: '36px'}}>About Us</h2>
         <p style={{maxWidth: '800px', margin: '20px auto', fontSize: '18px'}}>
-          My name is Javier Garcia, owner of JGMB Painting. With over 10 years of experience,
-          we proudly serve Ocoee, Orlando, and surrounding areas. Our mission is simple:
-          integrity and professionalism make clients happy.
-        </p>
+          JG & MB Painting & Remodeling, we are a locally owned and operated company that values honesty and integrity and treats your home as if it were our own.
+          We offer a variety of quality home improvement services. You will find us to be competitively priced with close attention to the details of each and every project that we are involved with. 
+          We look forward to building lasting relationships and guarantee your satisfaction!        </p>
       </section>
 
       {/* SERVICES SECTION */}
