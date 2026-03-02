@@ -1,8 +1,8 @@
 import logo from "./Logo.png";
+
 export default function App() {
   return (
     <div style={{fontFamily: 'Arial, sans-serif', margin: 0, padding: 0}}>
-
       {/* HERO SECTION */}
       <section style={{backgroundColor: '#1f5f4a', color: 'white', padding: '80px 20px', textAlign: 'center'}}>
         <img src={logo} style={{width: '180px', marginBottom: '20px'}} alt="JGMB Logo" />
