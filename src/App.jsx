@@ -6,7 +6,22 @@ export default function App() {
       <section style={{backgroundColor: '#1f5f4a', color: 'white', padding: '80px 20px', textAlign: 'center'}}>
         <img src={logo} style={{width: '180px', marginBottom: '20px'}} alt="JGMB Logo" />
         <h1 style={{fontSize: '48px', marginBottom: '10px'}}>JG&MB Painting & Remodeling</h1>
-        <p style={{fontSize: '22px', marginBottom: '20px'}}>Interior & Exterior Painting | Epoxy Floors | Pressure Washing</p>
+        <a 
+  href="tel:4075800112"
+  style={{
+    display: "inline-block",
+    marginTop: "20px",
+    backgroundColor: "#22c55e",
+    color: "white",
+    padding: "15px 30px",
+    fontSize: "20px",
+    fontWeight: "bold",
+    borderRadius: "8px",
+    textDecoration: "none"
+  }}
+>
+  📞 FREE ESTIMATE – CALL NOW
+</a>        <p style={{fontSize: '22px', marginBottom: '20px'}}>Interior & Exterior Painting | Epoxy Floors | Pressure Washing</p>
         <a href="tel:4075800112" style={{backgroundColor: '#f28c38', color: 'white', padding: '15px 30px', textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold'}}>Call Now</a>
       </section>
 
