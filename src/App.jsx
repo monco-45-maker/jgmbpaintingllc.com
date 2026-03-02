@@ -1,4 +1,5 @@
-import logo from "./Logo.png";export default function App() {
+import logo from "./Logo.png";
+export default function App() {
   return (
     <div style={{fontFamily: 'Arial, sans-serif', margin: 0, padding: 0}}>
 
