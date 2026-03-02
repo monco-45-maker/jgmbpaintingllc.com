@@ -54,9 +54,9 @@ export default function App() {
       {/* CONTACT SECTION */}
       <section style={{backgroundColor: '#1f5f4a', color: 'white', padding: '60px 20px', textAlign: 'center'}}>
         <h2 style={{fontSize: '36px'}}>Contact Us</h2>
-        <p style={{fontSize: '18px'}}>Serving windermere, Orlando, winter garden, winter park & Surrounding Areas</p>
+        <p style={{fontSize: '18px'}}>Serving:  Windermere, Orlando, Winter garden, Winter park, & Surrounding Areas</p>
         <p style={{fontSize: '18px'}}>Phone: 407-580-0112</p>
-        <p style={{fontSize: '18px'}}>Email: jamb.painting@gmail.com</p>
+        <p style={{fontSize: '18px'}}>Email: jgmb.painting@gmail.com</p>
         <a href="https://wa.me/14075800112" target="_blank" style={{backgroundColor: '#f28c38', color: 'white', padding: '15px 30px', textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold', display: 'inline-block', marginTop: '20px'}}>Message on WhatsApp</a>
       </section>
 
