@@ -1,10 +1,14 @@
+import project1 from "./project1.jpg";
+import project2 from "./project2.jpg";
+import project3 from "./project3.jpg";
+import project4 from "./project4.jpg";
 import logo from "./Logo.png";
 
 export default function App() {
   return (
     <div style={{fontFamily: 'Arial, sans-serif', margin: 0, padding: 0}}>
       <section style={{backgroundColor: '#1f5f4a', color: 'white', padding: '80px 20px', textAlign: 'center'}}>
-        <img src={logo} style={{width: '180px', marginBottom: '20px'}} alt="JGMB Logo" />
+       <img src={logo} style={{width: '180px', marginBottom: '20px'}} alt="JGMB Logo" />
         <h1 style={{fontSize: '48px', marginBottom: '10px'}}>JG&MB Painting & Remodeling</h1>
         <a 
   href="tel:4075800112"
@@ -54,17 +58,29 @@ export default function App() {
         </div>
       </section>
 
-      {/* GALLERY SECTION */}
-      <section style={{padding: '60px 20px', textAlign: 'center'}}>
-        <h2 style={{color: '#1f5f4a', fontSize: '36px'}}>Recent Projects</h2>
-        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px', maxWidth: '1000px', margin: '40px auto'}}>
-          {[1,2,3,4,5,6].map((item) => (
-            <div key={item} style={{backgroundColor: '#ddd', height: '250px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-              <span>Add Project Photo</span>
-            </div>
-          ))}
-        </div>
-      </section>
+      <div style={{
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+  gap: "20px",
+  maxWidth: "1000px",
+  margin: "40px auto"
+}}>
+  {[project1, project2, project3, project4].map((img, index) => (
+    <div key={index} style={{
+      borderRadius: "10px",
+      overflow: "hidden",
+      boxShadow: "0 4px 10px rgba(0,0,0,0.15)"
+    }}>
+      <img 
+        src={img} 
+        alt="Project" 
+        style={{
+          width: "100%",
+          height: "250px",
+          objectFit: "cover"
+        }} 
+      />
+    </div>
 
       {/* CONTACT SECTION */}
       <section style={{backgroundColor: '#1f5f4a', color: 'white', padding: '60px 20px', textAlign: 'center'}}>
