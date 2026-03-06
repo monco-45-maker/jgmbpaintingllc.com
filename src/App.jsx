@@ -58,7 +58,7 @@ export default function App() {
         </div>
       </section>
 
-      <div style={{
+     <div style={{
   display: "grid",
   gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
   gap: "20px",
@@ -81,7 +81,8 @@ export default function App() {
         }} 
       />
     </div>
-
+  ))}
+</div>
       {/* CONTACT SECTION */}
       <section style={{backgroundColor: '#1f5f4a', color: 'white', padding: '60px 20px', textAlign: 'center'}}>
         <h2 style={{fontSize: '36px'}}>Contact Us</h2>
