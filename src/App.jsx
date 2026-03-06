@@ -1,7 +1,7 @@
-import project1 from "./project1.jpg";
-import project2 from "./project2.jpg";
-import project3 from "./project3.jpg";
-import project4 from "./project4.jpg";
+import project1 from "./project1.jpeg";
+import project2 from "./project2.jpeg";
+import project3 from "./project3.jpeg";
+import project4 from "./project4.jpeg";
 import logo from "./Logo.png";
 
 export default function App() {
