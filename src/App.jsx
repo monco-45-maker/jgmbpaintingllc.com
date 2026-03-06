@@ -1,7 +1,7 @@
 import project1 from "./project1.jpeg";
 import project2 from "./project2.jpeg";
 import project3 from "./project3.jpeg";
-import project4 from "./project4.jpeg";
+import project3 from "./project4.jpeg";
 import logo from "./Logo.png";
 
 export default function App() {
@@ -71,18 +71,10 @@ export default function App() {
       overflow: "hidden",
       boxShadow: "0 4px 10px rgba(0,0,0,0.15)"
     }}>
-      <img 
-        src={img} 
-        alt="Project" 
-        style={{
-          width: "100%",
-          height: "250px",
-          objectFit: "cover"
-        }} 
-      />
-    </div>
-  ))}
-</div>
+      <img src={project1} alt="Project 1" />
+<img src={project2} alt="Project 2" />
+<img src={project3} alt="Project 3" />
+      
       {/* CONTACT SECTION */}
       <section style={{backgroundColor: '#1f5f4a', color: 'white', padding: '60px 20px', textAlign: 'center'}}>
         <h2 style={{fontSize: '36px'}}>Contact Us</h2>
