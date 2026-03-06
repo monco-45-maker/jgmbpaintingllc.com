@@ -70,14 +70,11 @@ maxWidth:"1000px",
 margin:"40px auto"
 }}>
 
-<img src={project1} style={{width:"100%", borderRadius:"10px"}} />
-
-<img src={project2} style={{width:"100%", borderRadius:"10px"}} />
-
-<img src={project3} style={{width:"100%", borderRadius:"10px"}} />
-
-<img src={project4} style={{width:"100%", borderRadius:"10px"}} />
-
+<img src={project1} alt="Painting Project 1" style={{width:"100%", borderRadius:"10px"}} />
+<img src={project2} alt="Painting Project 2" style={{width:"100%", borderRadius:"10px"}} />
+<img src={project3} alt="Painting Project 3" style={{width:"100%", borderRadius:"10px"}} />
+<img src={project4} alt="Painting Project 4" style={{width:"100%", borderRadius:"10px"}} />
+  
 </div>
       
       {/* CONTACT SECTION */}
