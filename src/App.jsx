@@ -1,7 +1,7 @@
-import project1 from "./project1.jpeg";
-import project2 from "./project2.jpeg";
-import project3 from "./project3.jpeg";
-import project3 from "./project4.jpeg";
+import project1 from "./project1.jpeg"
+import project2 from "./project2.jpeg"
+import project3 from "./project3.jpeg"
+import project4 from "./project4.jpeg"
 import logo from "./Logo.png";
 
 export default function App() {
@@ -58,31 +58,28 @@ export default function App() {
         </div>
       </section>
 
-     <div style={{
-  display: "grid",
-  gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-  gap: "20px",
-  maxWidth: "1000px",
-  margin: "40px auto"
+     <h2 style={{textAlign:"center", fontSize:"36px", marginTop:"40px"}}>
+Recent Projects
+</h2>
+
+<div style={{
+display:"grid",
+gridTemplateColumns:"repeat(auto-fit, minmax(250px, 1fr))",
+gap:"20px",
+maxWidth:"1000px",
+margin:"40px auto"
 }}>
-  {[project1, project2, project3, project4].map((img, index) => (
-    <div key={index} style={{
-      borderRadius: "10px",
-      overflow: "hidden",
-      boxShadow: "0 4px 10px rgba(0,0,0,0.15)"
-    }}>
-      <img
-        src={img}
-        alt="Project"
-        style={{
-          width: "100%",
-          height: "250px",
-          objectFit: "cover"
-        }}
-      />
-    </div>
-  ))}
-</div>      
+
+<img src={project1} style={{width:"100%", borderRadius:"10px"}} />
+
+<img src={project2} style={{width:"100%", borderRadius:"10px"}} />
+
+<img src={project3} style={{width:"100%", borderRadius:"10px"}} />
+
+<img src={project4} style={{width:"100%", borderRadius:"10px"}} />
+
+</div>
+      
       {/* CONTACT SECTION */}
       <section style={{backgroundColor: '#1f5f4a', color: 'white', padding: '60px 20px', textAlign: 'center'}}>
         <h2 style={{fontSize: '36px'}}>Contact Us</h2>
