@@ -70,9 +70,9 @@ maxWidth:"1000px",
 margin:"40px auto"
 }}>
 
-<img src={project1.src} alt="Painting Project 1" 
-<img src={project2.src} alt="Painting Project 2" 
-<img src={project4.src} alt="Painting Project 4" 
+<img src={project1.src} alt="Painting Project 1" />
+<img src={project2.src} alt="Painting Project 2" />
+<img src={project4.src} alt="Painting Project 4" />
   
 </div>
       
